@@ -24,7 +24,7 @@ main{
     border-radius: 10px;
     position: relative;
 }
-.card h5{
+.card h1{
     margin: 10px 0;
     color: hsl(150, 100%, 66%);
     text-transform: uppercase;
