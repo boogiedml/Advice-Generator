@@ -9,7 +9,6 @@ button.addEventListener("click", (e) => {
     })
         .then(response => response.json())
         .then(data => {
-            console.log(data.slip.advice);
             document.querySelector("#id").innerHTML = `advice ${data.slip.id}`
             document.querySelector("#advice").innerHTML = data.slip.advice
         })
